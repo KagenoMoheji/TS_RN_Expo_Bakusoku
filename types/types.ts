@@ -19,4 +19,4 @@ export const POOR: Rank = {name: "sentiment-dissatisfied", color: "blue", index:
 export const FETCH_ALL_REVIEWS: string = "fetch_all_reviews";
 export const SELECT_DETAIL_REVIEW: string = "select_detail_review";
 
-// export const ASSETS_PATH: string = "./../assets/"; // なぜかこちらから読み込ませるとエラーになるので各ファイル(actions/review_action.ts，screens/Tutorial.tsx，screens/Detail.tsx)で定義．
+// export const ASSETS_PATH: string = "./../assets/"; // なぜかこちらから読み込ませるとエラーになるので各ファイル(actions/review_action.ts，screens/Tutorial.tsx，screens/Detail.tsxなど)で定義．
